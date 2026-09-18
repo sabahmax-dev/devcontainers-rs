@@ -26,7 +26,7 @@ $ devcontainers_rs up
 
 2- You can add custom settings to be applied to all projects in `$HOME/.config/devcontainer.json`
 
-Available settings: `application` (object), `mounts` (object), `postCreateCommand` (string/array), `postStartCommand` (string/array), `postAttachCommand` (string/array), `forwardPorts` (array), `env` (object)
+Available settings: `application` (object), `mounts` (object), `postCreateCommand` (string/array), `postStartCommand` (string/array), `postAttachCommand` (string/array), `forwardPorts` (array), `envs` (object)
 
 2.1 - Starting editor/ide after setting up containers:
 
@@ -68,4 +68,3 @@ Available settings: `application` (object), `mounts` (object), `postCreateComman
 [ ] destroy containers
 
 [ ] user management (`remoteUser`,  `containerUser`, `updateRemoteUserUID`)
-
